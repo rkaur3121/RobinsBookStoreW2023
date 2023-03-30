@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33328.57
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobinsBookStore", "RobinsBookStore\RobinsBookStore.csproj", "{09314635-97C7-4B2D-850D-5849CA57F7C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RobinsBookStore", "RobinsBookStore\RobinsBookStore.csproj", "{09314635-97C7-4B2D-850D-5849CA57F7C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobinsBooks.DataAccess", "RobinsBooks.DataAccess\RobinsBooks.DataAccess.csproj", "{23216709-092D-4F91-A8FF-FCB41D146353}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobinsBooks.Models", "RobinsBooks.Models\RobinsBooks.Models.csproj", "{567DDE21-AD3E-4265-BEC3-99E935A3E433}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobinsBooks.Utility", "RobinsBooks.Utility\RobinsBooks.Utility.csproj", "{48E38BDF-C799-4884-9745-FE185E24A4FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{09314635-97C7-4B2D-850D-5849CA57F7C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09314635-97C7-4B2D-850D-5849CA57F7C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09314635-97C7-4B2D-850D-5849CA57F7C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23216709-092D-4F91-A8FF-FCB41D146353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23216709-092D-4F91-A8FF-FCB41D146353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23216709-092D-4F91-A8FF-FCB41D146353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23216709-092D-4F91-A8FF-FCB41D146353}.Release|Any CPU.Build.0 = Release|Any CPU
+		{567DDE21-AD3E-4265-BEC3-99E935A3E433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{567DDE21-AD3E-4265-BEC3-99E935A3E433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{567DDE21-AD3E-4265-BEC3-99E935A3E433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{567DDE21-AD3E-4265-BEC3-99E935A3E433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48E38BDF-C799-4884-9745-FE185E24A4FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E38BDF-C799-4884-9745-FE185E24A4FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E38BDF-C799-4884-9745-FE185E24A4FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E38BDF-C799-4884-9745-FE185E24A4FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
