@@ -63,7 +63,7 @@ namespace RobinsBookStore
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");//Default Route pattern
+                    pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");//Default Route pattern
                 endpoints.MapRazorPages();
             });
         }
