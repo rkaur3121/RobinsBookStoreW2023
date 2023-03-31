@@ -128,6 +128,12 @@ edit ApplicationDbContext.cs file
  ******0235****
  added services.AddScoped<UnitOfWork, UnitOfWork>(); in line 37 in Startup.cs
 
+ ****start again (2023-03-31)******
+ *****1240*****
+ delete UnitOfWork.cs interface and recreated again this interface with name IUnitOfWork.cs in IRepository
+
+
+
 
 
 

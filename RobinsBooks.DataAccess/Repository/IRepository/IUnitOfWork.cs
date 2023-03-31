@@ -4,7 +4,7 @@ using System.Text;
 
 namespace RobinsBooks.DataAccess.Repository.IRepository
 {
-    interface UnitOfWork
+    interface IUnitOfWork : IDisposable
     {
         ICategoryRepository Category { get; }
 
