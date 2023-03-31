@@ -82,5 +82,15 @@ Message	IDE0052	Private member 'HomeController._logger' can be removed as the va
 
 ****Unable to solve the issue so i start project again*******
 
+*****1955*******
+added migration file
+20230330234445_AddDefaultIdentityMigration.cs
+ then....
+run command update-database but it failed
+after solve errors by install package
 
-*****2023-03-30*****
+******2015*****
+add catogery.cs class in RobinsBooks.Models
+
+
+
