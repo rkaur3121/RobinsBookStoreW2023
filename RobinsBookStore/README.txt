@@ -91,6 +91,12 @@ after solve errors by install package
 
 ******2015*****
 add catogery.cs class in RobinsBooks.Models
+add-migration AddCategoryToDb via the PM console
+ then...
+ edit ApplicationDbContext.cs file 
+ then.. 
+ re-run the add-migration AddCategoryToDb command 
+ update-database again
 
 
 
