@@ -85,6 +85,7 @@ Message	IDE0052	Private member 'HomeController._logger' can be removed as the va
 *****1955*******
 added migration file
 20230330234445_AddDefaultIdentityMigration.cs
+20230331004459_AddCategoryToDb.cs
  then....
 run command update-database but it failed
 after solve errors by install package
