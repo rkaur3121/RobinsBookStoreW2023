@@ -132,6 +132,9 @@ edit ApplicationDbContext.cs file
  *****1240*****
  delete UnitOfWork.cs interface and recreated again this interface with name IUnitOfWork.cs in IRepository
 
+ i faced an error in IUnitOfWork.cs in Irepository folder 
+ so i deleted agin and created again by UnitOfWork.cs 
+
 
 
 
