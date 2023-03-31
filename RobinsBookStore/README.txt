@@ -92,14 +92,21 @@ after solve errors by install package
 ******2015*****
 add catogery.cs class in RobinsBooks.Models
 add-migration AddCategoryToDb via the PM console
- then...
- edit ApplicationDbContext.cs file 
+then...
+edit ApplicationDbContext.cs file 
  then.. 
  re-run the add-migration AddCategoryToDb command 
  update-database again
   add new folder(Repository)in RobinsBooks.DataAccess and then add another IRepository in Repository folder
   add new class (IRepository.cs) in IRepository folder
- modify Irepository.cs
+ modify IRepository.cs
+ *****2137******
+ add respository.cs class in Respository folder
+ Modify Respository.cs 
+ added categoryRespository.cs class in Respository folder
+ added ICategoryRespository.cs Interface in IRespository folder
+
+
 
 
 

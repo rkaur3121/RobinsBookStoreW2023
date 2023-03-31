@@ -13,6 +13,7 @@ namespace RobinsBookStore.DataAccess.Data
             : base(options)
         {
         }
+
         public DbSet<Category> Categories { get; set; }
     }
 }
