@@ -116,6 +116,10 @@ edit ApplicationDbContext.cs file
  added SP_call.cs class in Respository folder
  modify SP_call.cs
 
+ ****0120****
+ created new interface(UnitOfWork.cs) in IRepository folder
+ added two lines into it
+
 
 
 
