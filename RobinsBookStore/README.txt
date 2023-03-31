@@ -97,6 +97,9 @@ add-migration AddCategoryToDb via the PM console
  then.. 
  re-run the add-migration AddCategoryToDb command 
  update-database again
+  add new folder(Repository)in RobinsBooks.DataAccess and then add another IRepository in Repository folder
+  add new class (IRepository.cs) in IRepository folder
+ modify Irepository.cs
 
 
 
