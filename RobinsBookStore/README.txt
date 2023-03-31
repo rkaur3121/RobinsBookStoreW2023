@@ -120,6 +120,15 @@ edit ApplicationDbContext.cs file
  created new interface(UnitOfWork.cs) in IRepository folder
  added two lines into it
 
+ ****0225****
+ created new interface(UnitOfWork.cs) in IRepository folder
+ created new class(UnitOfWork.cs) in Repository folder
+ modify both of them
+
+ ******0235****
+ added services.AddScoped<UnitOfWork, UnitOfWork>(); in line 37 in Startup.cs
+
+
 
 
 

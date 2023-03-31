@@ -4,9 +4,10 @@ using System.Text;
 
 namespace RobinsBooks.DataAccess.Repository.IRepository
 {
-    interface UnitOfWork: IDisposable
+    interface UnitOfWork
     {
         ICategoryRepository Category { get; }
+
         ISP_Call SP_Call { get; }
     }
 }
