@@ -104,8 +104,13 @@ edit ApplicationDbContext.cs file
  add respository.cs class in Respository folder
  Modify Respository.cs 
  added categoryRespository.cs class in Respository folder
+
+ ****2200****
  added ICategoryRespository.cs Interface in IRespository folder
  modify CategoryRepository.cs class and IcategoryRepsoitory.cs interface
+ ***2220*****
+ added new ISP_call.cs interface in IRepository folder
+ modify ISP_call.cs
 
 
 
