@@ -105,6 +105,7 @@ edit ApplicationDbContext.cs file
  Modify Respository.cs 
  added categoryRespository.cs class in Respository folder
  added ICategoryRespository.cs Interface in IRespository folder
+ modify CategoryRepository.cs class and IcategoryRepsoitory.cs interface
 
 
 

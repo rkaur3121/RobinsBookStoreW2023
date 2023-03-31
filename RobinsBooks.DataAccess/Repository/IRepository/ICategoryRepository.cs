@@ -1,10 +1,12 @@
-﻿using System;
+﻿using RobinsBooks.Models;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace RobinsBooks.DataAccess.Repository.IRepository
 {
-    interface ICategoryRepository
+    interface ICategoryRepository :IRepository<Category>
     {
+        void Update(Category category);
     }
 }
